@@ -49,16 +49,28 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+
+            <img 
+  src="https://res.cloudinary.com/djjmj40t9/image/upload/f_auto,q_auto,w_2000/v1757969282/project1_aggmiz.jpg" 
+  srcset="
+    https://res.cloudinary.com/djjmj40t9/image/upload/f_auto,q_auto,w_1100/v1757969282/project1_aggmiz.jpg,
+    https://res.cloudinary.com/djjmj40t9/image/upload/f_auto,q_auto,w_1100/v1757969282/project1_aggmiz.jpg,
+    https://res.cloudinary.com/djjmj40t9/image/upload/f_auto,q_auto,w_1600/v1757969282/project1_aggmiz.jpg ,
+    https://res.cloudinary.com/djjmj40t9/image/upload/f_auto,q_auto,w_2000/v1757969282/project1_aggmiz.jpg 
+  "
+  alt="Moksha"
+/>
+
+
+
+              {/* <img src="https://res.cloudinary.com/djjmj40t9/image/upload/f_auto,q_auto,dpr_auto,w_1600/v1757969282/project1_aggmiz.jpg" alt="Ryde App Interface" /> */}
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
-              </h2>
+<span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-sky-400 to-indigo-500 "> Moksha </span> — because sometimes, all you need is a gentle reminder that you’re not alone.
+            </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+              An app built with React.js, Node.js, Express.js, and MongoDB — styled with Material UI & TailwindCSS for a fast, user-friendly experience.
               </p>
             </div>
           </div>
@@ -68,17 +80,17 @@ const AppShowcase = () => {
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/project2.png"
-                  alt="Library Management Platform"
+                  alt="Sugar Rush"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>The E-Commerce Coffee Platform</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
+              <div className="image-wrapper bg-[#F3E8FF]">
                 <img src="/images/project3.png" alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Project Management Platform</h2>
             </div>
           </div>
         </div>

@@ -1,3 +1,15 @@
+import { DiReact } from "react-icons/di";
+import { SiCsswizardry } from "react-icons/si";
+import { SiHtmx } from "react-icons/si";
+import { SiJavascript } from "react-icons/si";
+import { DiNodejs } from "react-icons/di";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { SiMysql, SiGithub ,SiCloudinary  } from "react-icons/si";
+import { SiBootstrap ,SiTailwindcss ,SiMui,SiAwsamplify  } from "react-icons/si";
+import { FaAws, FaGitAlt  } from "react-icons/fa6";
+import { VscVscode } from "react-icons/vsc";
+
 const navLinks = [
   {
     name: "Work",
@@ -42,41 +54,77 @@ const counterItems = [
   { value: 95, suffix: "%", label: "Client Retention Rate" },
 ];
 
+// const cloudinaryUrl ="https://res.cloudinary.com/djjmj40t9/image/upload/f_auto,q_auto,dpr_auto/v1758382371/"
+
+// const logoIconsList = [
+//   {
+//     Icon: DiReact,
+//   },
+//    {
+//     imgPath: `${cloudinaryUrl}company-logo-2_icd5js`,
+//   },
+//    {
+//     imgPath: `${cloudinaryUrl}company-logo-3_nkylar`,
+//   },
+//    {
+//     imgPath: `${cloudinaryUrl}company-logo-4_i2vwcv`,
+//   },
+//    {
+//     imgPath: `${cloudinaryUrl}company-logo-5_e3gfs0`,
+//   },
+//    {
+//     imgPath: `${cloudinaryUrl}express_l9vmpe`,
+//   },
+//    {
+//     imgPath: `${cloudinaryUrl}company-logo-7_ibe1y3`,
+//   },
+//    {
+//     imgPath: `${cloudinaryUrl}company-logo-8_smpcc2`,
+//   },
+//    {
+//     imgPath: "https://res.cloudinary.com/djjmj40t9/image/upload/f_auto,q_auto,dpr_auto/v1758385189/company-logo-9.png",
+//   },
+//    {
+//     imgPath: `${cloudinaryUrl}company-logo-10_vxdq4h`,
+//   },
+//    {
+//     imgPath: `${cloudinaryUrl}company-logo-11_tqxewg`,
+//   },
+//    {
+//     imgPath: `${cloudinaryUrl}company-logo-12`,
+//   },
+
+//    {
+//     imgPath: `${cloudinaryUrl}company-logo-14_dgpoat`,
+//   },
+//    {
+//     imgPath: `${cloudinaryUrl}company-logo-15_ea1yqd`,
+//   },
+//    {
+//     imgPath: `${cloudinaryUrl}company-logo-16_craeou`,
+//   },
+// ];
+
 const logoIconsList = [
-  {
-    imgPath: "/images/logos/company-logo-1.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-2.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-3.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-4.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-5.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-6.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-7.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-8.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-9.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
-  },
+  { Icon: SiHtmx },
+  { Icon: SiCsswizardry },
+  { Icon: SiJavascript },
+  { Icon: DiReact },
+  { Icon: DiNodejs },
+  { Icon: SiExpress },
+  { Icon: SiMongodb },
+  { Icon: FaAws },
+  { Icon: SiAwsamplify },
+  { Icon: SiMysql },
+  { Icon: SiBootstrap },
+  { Icon: SiTailwindcss },
+  { Icon: SiMui },
+  { Icon: SiGithub },
+  { Icon: FaGitAlt },
+  { Icon: SiCloudinary },
+  { Icon: VscVscode },
 ];
+
 
 const abilities = [
   {
